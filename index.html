@@ -16,22 +16,20 @@
         --gold: #b8860b;
         --paper: #eadccf;
         --shadow: rgba(0, 0, 0, 0.9);
-    }<link rel="stylesheet" href="gothic-final.css">
+    }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
-<!-- Cierre circular / eco del átomo -->
-<div class="emphasized-quote gothic-echo">
-    <span class="ornament">✦</span><br>
-    Y si el universo se repliega,<br>
-    que nos encuentre aún unidos,<br>
-    estables, inevitables.<br>
-    <span class="ornament">✦</span>
-</div>
 
-<!-- Detalle íntimo / susurro final -->
-<p class="gothic-whisper">
-    23:47 — todavía estás acá.
-</p>
+    body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: 'Crimson Text', serif;
+        line-height: 1.8;
+        background-image: 
+            radial-gradient(circle at center, rgba(139,0,0,0.1) 0%, transparent 80%),
+            repeating-linear-gradient(45deg, rgba(20,20,20,1) 0px, rgba(20,20,20,1) 10px, rgba(10,10,10,1) 10px, rgba(10,10,10,1) 20px);
+        overflow-x: hidden;
+        min-height: 100vh;
     }
 
     .container {
